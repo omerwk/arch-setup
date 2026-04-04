@@ -32,11 +32,14 @@ sudo systemctl enable NetworkManager.service
 sudo systemctl enable bluetooth.service
 
 # clone dotfiles repo to home dir
-git clone https://github.com/OmerWolkoon/dotfiles.git ~/.dotfiles --depth=1
+git clone https://github.com/OmerWolkoon/dotfiles.git ~/Omer/dotfiles --depth=1
 # load .bashrc file
-cp ~/.dotfiles/.bashrc ~/.bashrc
+cp ~/Omer/dotfiles/.bashrc ~/.bashrc
 # load configs
 mkdir -p ~/.config
-cp -r ~/.dotfiles/.config/* ~/.config/
+cp -r ~/Omer/dotfiles/.config/* ~/.config/
+
 # set wallpaper
-swww img ~/.dotfiles/alena-aenami-budapest.jpg
+mkdir -p ~/Omer/Images
+cp ~/Omer/dotfiles/alena-aenami-budapest.jpg ~/Omer/Images/
+swww img ~/Omer/Images/alena-aenami-budapest.jpg
