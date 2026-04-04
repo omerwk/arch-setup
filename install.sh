@@ -38,3 +38,5 @@ cp ~/.dotfiles/.bashrc ~/.bashrc
 # load configs
 mkdir -p ~/.config
 cp -r ~/.dotfiles/.config/* ~/.config/
+# set wallpaper
+swww img ~/.dotfiles/alena-aenami-budapest.jpg
