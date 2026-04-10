@@ -47,13 +47,6 @@ cp ~/Omer/dotfiles/.bashrc ~/.bashrc
 mkdir -p ~/.config
 cp -r ~/Omer/dotfiles/.config/* ~/.config/
 
-<<<<<<< HEAD
-# set wallpaper and move fastfetch logo into place
-mkdir -p ~/Omer/Images
-cp ~/Omer/dotfiles/Images/alena-aenami-budapest.jpg ~/Omer/Images/
-swww img ~/Omer/Images/alena-aenami-budapest.jpg
-cp ~/Omer/Images/dotfiles/DarkSideOfArch.png ~/Omer/Images/
-=======
 # set wallpaper
 echo "${PURPLE}  Setting wallpaper"
 mkdir -p ~/Omer/Images
