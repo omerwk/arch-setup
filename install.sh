@@ -38,7 +38,7 @@ sudo systemctl enable bluetooth.service
 
 echo "${PURPLE}  Loading configs..."
 # clone dotfiles repo to home dir
-git clone https://github.com/OmerWolkoon/dotfiles.git ~/Omer/dotfiles --depth=1
+git clone https://github.com/omerwk/dotfiles.git ~/Omer/dotfiles --depth=1
 
 # load .bashrc file
 cp ~/Omer/dotfiles/.bashrc ~/.bashrc
@@ -50,6 +50,6 @@ cp -r ~/Omer/dotfiles/.config/* ~/.config/
 # set wallpaper
 echo "${PURPLE}  Setting wallpaper"
 mkdir -p ~/Omer/Images
+cp ~/Omer/dotfiles/Images/DarkSideOfArch.png ~/Omer/Images/
 cp ~/Omer/dotfiles/alena-aenami-budapest.jpg ~/Omer/Images/
-waypaper --wallpaper ~/Omer/Images/alene-aenami-budapest.jpg
->>>>>>> 364dbcd (added progress announcements)
+waypaper --wallpaper ~/Omer/Images/alena-aenami-budapest.jpg
