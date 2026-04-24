@@ -52,4 +52,4 @@ echo "${PURPLE}  Setting wallpaper"
 mkdir -p ~/Omer/Images
 cp ~/Omer/dotfiles/Images/DarkSideOfArch.png ~/Omer/Images/
 cp ~/Omer/dotfiles/alena-aenami-budapest.jpg ~/Omer/Images/
-waypaper --wallpaper ~/Omer/Images/alena-aenami-budapest.jpg || true
+swww img ~/Omer/Images/alena-aenami-budapest.jpg || true
